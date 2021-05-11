@@ -1,0 +1,183 @@
+header {
+	background: green;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	background-image: url("img/grama-do-fundo-do-campo-de-futebol-84245940.jpg");
+
+}
+
+.titulo-principal {
+	text-align: center;
+}
+
+
+nav {
+	position: absolute;
+	top: 125px;
+	right: 0;
+	background:white;
+	background-size: cover;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav a:hover {
+	color: #C78C19;
+
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+form {
+	margin: 40px 0; 
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px; 
+	margin: 0 0 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width:50%
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Oswald' , 'sans-serif';
+	cursor: pointer;
+	transition: 1s all;
+}
+
+
+.enviar:hover {
+background: darkorange;
+transform: scale(1.01) 
+}
+
+}
+
+footer {
+	background: black;
+	padding: 40px;
+}
+
+
+.copyright {
+	text-align: center;
+	margin: auto auto
+
+}
+.textocopy {
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	margin: 20px 0;
+	font-weight: bold;
+	color:black;
+}
+p {
+	font-family: 'Arimo', sans-serif;
+	margin: 10px 0;
+	font-size: 20px; 
+	text-align: center;
+
+}
+
+.banner {
+	width: 940px;
+	display: block;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+
+/* Tabele */
+
+#valores {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	background: darkorange;
+	color: white;
+	padding: 20px 2px;
+}
+
+/*página de mensalista*/
+
+#titulo-mensalidade {
+	text-align-last: center;
+}
+
+#preços {
+	font-family: 'Oswald', sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+#preços td, #preços th {
+	border:1px solid #ddd;
+	padding: 8px;
+
+}
+
+
+#preços tr:hover {background-color: #ddd;}
+ 
+#preços th {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		background-color: #4CAF50;
+		color: white;
+}
+
+#nota {
+	font-weight: bold;
+}
+
+#foto-mensalista {
+	width: 940px;
+	padding: 2px 0
+}
